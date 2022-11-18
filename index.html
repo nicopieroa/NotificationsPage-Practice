@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Notifications Page</title>
+  </head>
+  <body>
+    <div class="component">
+      <div class="headerComponentContainer">
+        <div class="title-number-notifications">
+          <h1>Notifications</h1>
+          <span id="notificationsNumber">4</span>
+        </div>
+        <button id="allReadButton">Mark all as read</button>
+      </div>
+
+      <div id="notifications" class="notificationsContainer">
+        <div class="notification newNotification">
+          <div class="userImgContainer">
+            <img src="Images/user.png" alt="User pic" />
+          </div>
+          <div class="notificationInfo">
+            <div class="info">
+              <p>
+                <span>User name </span>
+                reacted to your recent post
+                <span>Post name</span>
+              </p>
+              <span class="datePublished">Published time</span>
+            </div>
+            <!-- <p class="privateMessage">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium illo consequuntur adipisci aliquam consequatur modi nam
+              repellat quod praesentium. Aliquid, cumque? Adipisci eaque
+              praesentium excepturi reiciendis beatae. Error, iure quas!
+            </p> -->
+          </div>
+          <div class="newNotificationAlert"></div>
+        </div>
+
+        <div class="notification newNotification">
+          <div class="userImgContainer">
+            <img src="Images/user.png" alt="User pic" />
+          </div>
+          <div class="notificationInfo">
+            <div class="info">
+              <p>
+                <span>User name </span>
+                followed you
+                <!-- <span>Post name</span> -->
+              </p>
+              <span class="datePublished">Published time</span>
+            </div>
+            <!-- <p class="privateMessage">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium illo consequuntur adipisci aliquam consequatur modi nam
+              repellat quod praesentium. Aliquid, cumque? Adipisci eaque
+              praesentium excepturi reiciendis beatae. Error, iure quas!
+            </p> -->
+          </div>
+          <div class="newNotificationAlert"></div>
+        </div>
+
+        <div class="notification newNotification">
+          <div class="userImgContainer">
+            <img src="Images/user.png" alt="User pic" />
+          </div>
+          <div class="notificationInfo">
+            <div class="info">
+              <p>
+                <span>User name </span>
+                has joined your group
+                <span class="groupNotification">Group name</span>
+              </p>
+              <span class="datePublished">Published time</span>
+            </div>
+            <!-- <p class="privateMessage">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium illo consequuntur adipisci aliquam consequatur modi nam
+                repellat quod praesentium. Aliquid, cumque? Adipisci eaque
+                praesentium excepturi reiciendis beatae. Error, iure quas!
+              </p> -->
+          </div>
+          <div class="newNotificationAlert"></div>
+        </div>
+
+        <div class="notification newNotification">
+          <div class="userImgContainer">
+            <img src="Images/user.png" alt="User pic" />
+          </div>
+          <div class="notificationInfo">
+            <div class="info">
+              <p>
+                <span>User name </span>
+                sent you a private message
+                <!-- <span class="groupNotification">Group name</span> -->
+              </p>
+              <span class="datePublished">Published time</span>
+            </div>
+            <p class="privateMessage">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium illo consequuntur adipisci aliquam consequatur modi nam
+              repellat quod praesentium. Aliquid, cumque? Adipisci eaque
+              praesentium excepturi reiciendis beatae. Error, iure quas!
+            </p>
+          </div>
+          <div class="newNotificationAlert"></div>
+        </div>
+
+        <div class="notification notificationReaded">
+          <div class="userImgContainer">
+            <img src="Images/user.png" alt="User pic" />
+          </div>
+          <div class="notificationInfo">
+            <div class="info">
+              <p>
+                <span>User name </span>
+                commented on your picture
+                <!-- <span class="groupNotification">Group name</span> -->
+              </p>
+              <span class="datePublished">Published time</span>
+            </div>
+            <!-- <p class="privateMessage">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium illo consequuntur adipisci aliquam consequatur modi nam
+              repellat quod praesentium. Aliquid, cumque? Adipisci eaque
+              praesentium excepturi reiciendis beatae. Error, iure quas!
+            </p> -->
+          </div>
+          <div class="userImgContainer">
+            <img src="Images/image.png" alt="User pic" />
+          </div>
+          <!-- <div class="newNotificationAlert"></div> -->
+        </div>
+
+        <div class="notification notificationReaded">
+          <div class="userImgContainer">
+            <img src="Images/user.png" alt="User pic" />
+          </div>
+          <div class="notificationInfo">
+            <div class="info">
+              <p>
+                <span>User name </span>
+                reacted to your recent post
+                <span class="groupNotification">Post name</span>
+              </p>
+              <span class="datePublished">Published time</span>
+            </div>
+            <!-- <p class="privateMessage">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium illo consequuntur adipisci aliquam consequatur modi nam
+                repellat quod praesentium. Aliquid, cumque? Adipisci eaque
+                praesentium excepturi reiciendis beatae. Error, iure quas!
+              </p> -->
+          </div>
+          <!-- <div class="userImgContainer">
+            <img src="Images/image.png" alt="User pic" />
+          </div> -->
+          <!-- <div class="newNotificationAlert"></div> -->
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
